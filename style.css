@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("font/static/Inter-Light.ttf");
+}
+/*index mobil*/
+body {
+  background-color: #090f17;
+  font-family: "CustomFont", sans-serif;
+  color: white;
+}
+p {
+  line-height: 30px;
+}
+.forside-intro {
+  background-image: url("../img/ashebanner.png");
+  height: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 45px;
+}
+.forside-intro h1 {
+  padding-top: 70px;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, o.5);
+}
+.forside-intro button {
+  background-color: #c8aa6e;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.beginners-guide h2 {
+  font-size: 18px;
+  width: 350px;
+  margin-left: 30px;
+}
+.beginners-guide p {
+  font-size: 14px;
+  width: 330px;
+  margin-left: 30px;
+}
+.beginnerimg {
+  background-image: url("../img/beginnersguide.png");
+  background-size: 100%;
+  height: 200px;
+  width: 350px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.beginnerimg h3 {
+  padding-top: 110px;
+  padding-left: 220px;
+  font-size: 16px;
+  color: #c8aa6e;
+}
+.beginnerimg p {
+  padding-left: 100px;
+  font-size: 14px;
+  line-height: 2px;
+}
+.beginnerimg button {
+  background-color: #c8aa6e;
+  border: none;
+  color: white;
+  padding: 2px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-left: 240px;
+}
+footer {
+  background-image: url("../img/Footer.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 130px;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+.footerborder {
+  width: 100%;
+  margin-bottom: -95px;
+}
+
+
+/*index desktop*/
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: #090f17;
+  }
+  .forside-intro {
+    height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 90px;
+  }
+  .forside-intro h1 {
+    padding-top: 250px;
+    font-size: 60px;
+  }
+  .forside-intro button {
+    background-color: #c8aa6e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .beginners-guide h2 {
+    font-size: 42px;
+    width: 100%;
+    margin-left: 170px;
+  }
+  .beginners-guide p {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 170px;
+  }
+  .beginnerimg {
+    height: 700px;
+    width: 1100px;
+  }
+
+  .beginnerimg h3 {
+    padding-top: 420px;
+    padding-left: 830px;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .beginnerimg p {
+    padding-left: 600px;
+  }
+  .beginnerimg button {
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 925px;
+    margin-top: 10px;
+  }
+  .container {
+    display: flex;
+    width: 1090px;
+  }
+
+  .slider {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider img {
+    width: 100%;
+    max-height: 10.4vh; /* Begrænser højden af sliderbillederne */
+    object-fit: cover; /* Sikrer, at billedet dækker det angivne område uden at forvrænge billedet */
+    cursor: pointer;
+    object-position: 50% 20%;
+    margin-bottom: 5px;
+  }
+
+  .big-image {
+    width: 70%;
+  }
+
+  .big-image img {
+    width: 100%;
+    max-height: 80vh; /* Begrænser højden af hovedbilledet */
+    object-fit: cover; /* Sikrer, at billedet dækker det angivne område uden at forvrænge billedet */
+    margin-left: 20px;
+  }
+  .tekst-stil1{
+    color: #c8aa6e;
+    font-size: 30px;
+    margin-top: -180px;
+    margin-left: 450px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    }
+    .tekst-stil2{
+      font-size: 20px;
+      margin-left: 300px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    }
+    .knap-stil button{
+      background-color: #c8aa6e;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 20px;
+      margin-left: 630px;
+    }
+
+  footer {
+    background-image: url("../img/Footer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 470px;
+  }
+  .footerborder {
+    width: 100%;
+    margin-bottom: -95px;
+  }
+
+}
+
+/*How to play mobil*/
+
+.forside-intro-2 {
+  background-image: url("../img/Backgroundhtp.png");
+  height: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 45px;
+}
+.forside-intro-2 h1 {
+  padding-top: 70px;
+  font-size: 24px;
+}
+.forside-intro-2 button {
+  background-color: #c8aa6e;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.introborder {
+  width: 100%;
+  margin-top: -105px;
+}
+.htp-introtekst {
+  width: 350px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.htp-introtekst img {
+  margin-top: -50px;
+  width: 400px;
+}
+.htp-introtekst h3,
+.htp-introtekst h2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.htp-introtekst h3 {
+  margin-top: -20px;
+  font-size: 14px;
+}
+.htp-introtekst p {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.page-center {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 200px;
+}
+
+.grid-item > p {
+  width: 600px;
+}
+
+/*how to play desktop*/
+@media screen and (min-width: 992px) {
+  .forside-intro-2 {
+    height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 90px;
+  }
+  .forside-intro-2 h1 {
+    padding-top: 250px;
+    font-size: 60px;
+  }
+  .forside-intro-2 button {
+    background-color: #c8aa6e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .introborder {
+    width: 100%;
+    margin-top: -370px;
+  }
+  .htp-introtekst {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 200px;
+  }
+  .htp-introtekst img {
+    margin-top: -50px;
+    width: 800px;
+  }
+  .htp-introtekst h3,
+  .htp-introtekst h2 {
+    margin-left: 50px;
+  }
+  .htp-introtekst h2 {
+    font-size: 30px;
+  }
+  .htp-introtekst h3 {
+    font-size: 18px;
+  }
+  .htp-introtekst p {
+    margin-top: 30px;
+  }
+  .page-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid-item {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
+
+  .grid-item > p {
+    width: 600px;
+  }
+}

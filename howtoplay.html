@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to play</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="stylesheet/stylesheet.css" />
+  </head>
+  <body>
+    <!-- Bootstrap navigationsbar -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link ms-5 me-5"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-5 me-5"
+                aria-current="page"
+                href="howtoplay.html"
+                >How to play</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5 me-5" aria-current="page" href="top.html"
+                >Top</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link ms-5 me-5"
+                aria-current="page"
+                href="jungle.html"
+                >Jungle</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5 me-5" aria-current="page" href="mid.html"
+                >Mid</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5 me-5" aria-current="page" href="adc.html"
+                >Adc</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" aria-current="page" href="support.html"
+                >Support</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header img -->
+
+    <div class="forside-intro-2">
+      <h1 class="forside-intro-text">WHERE TO START AND HOW TO PLAY</h1>
+    </div>
+
+    <img
+      class="introborder"
+      src="img/Group 146.png"
+      alt="Border under header img"
+    />
+    <!-- How to play guide-->
+    <div class="lane-guide">
+      <h2>HOW TO PLAY</h2>
+      <img class="text-border" src="img/Vector.png" alt="text border" />
+      <h3>A beginners guide to League of Legends</h3>
+      <p>
+        League of Legends (LoL) is a fast-paced strategy game where two teams of
+        five players each, aim to destroy the opposing team's nexus, located
+        within their base. Players start by choosing a champion, each with
+        unique abilities. Once the game begins, earn gold by killing enemy
+        units, and use it to buy items and boost your champion's power. The game
+        map is divided into lanes, where most of the combat happens, and a
+        jungle area filled with neutral monsters for additional resources.
+        Teamwork, strategy, and quick decision-making are key to winning in LoL.
+      </p>
+    </div>
+
+    <!-- Choose your game mode guide-->
+    <div class="lane-guide">
+      <h2>CHOOSE YOUR GAME MODE</h2>
+      <img class="text-border" src="img/Vector.png" alt="text border" />
+      <h3>
+        Engage in strategic combat in 'Summoner's Rift' or enjoy relentless
+        fights in 'ARAM'
+      </h3>
+      <div class="game-mode-container">
+        <div class="game-mode-guide">
+          <img src="img/summoner-rift-logo.png" />
+          <p>
+            'Summoner's Rift' is the classic, competitive mode of League of
+            Legends. In this 5v5 mode, two teams strive to destroy the enemy's
+            nexus, located at the heart of their base. The map features three
+            lanes - top, mid, and bot, along with a jungle filled with monsters.
+            Strategic planning, timely execution, and team synergy are the keys
+            to triumph.
+          </p>
+        </div>
+        <div class="game-mode-guide">
+          <img src="img/aram-logo.png" />
+          <p>
+            'ARAM' (All Random All Mid) simplifies the League of Legends
+            experience into a single lane of non-stop action. It's a 5v5 mode
+            where players are randomly assigned a champion. The relentless
+            fighting tests your ability to make split-second decisions and
+            teamfight effectively. With no respawns until your team is wiped,
+            each move counts.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lane-guide">
+      <h2>Summoner's Rift game modes</h2>
+      <img class="text-border" src="img/Vector.png" alt="text border" />
+      <h3>Choose your Summoner's Rift game mode!</h3>
+      <p>
+        In 'Summoner's Rift', you can choose from 'Blind Pick' for casual play,
+        'Draft Pick' for strategic champion selection, 'Ranked Solo/Duo' for
+        competitive play with a partner or alone, or 'Ranked Flex' for
+        team-based ranked matches.
+      </p>
+      <div class="summoner-rift-gamemode-carrusel">
+        <div class="game-mode-carrusel-menu">
+          <ul>
+            <li class="game-mode-link" data-index="0">Blind pick</li>
+            <li class="game-mode-link" data-index="1">Draft pick</li>
+            <li class="game-mode-link" data-index="2">Ranked solo/duo</li>
+            <li class="game-mode-link" data-index="3">Ranked flex</li>
+          </ul>
+        </div>
+        <div class="summoner-rift-gamemode-carrusel-display">
+          <p id="summoner-rift-gamemode-carrusel-text">Placement text</p>
+
+          <video width="320" height="240" autoplay muted loop>
+            <source
+              id="game-mode-video"
+              src="video/blind-pick.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- What lane to play -->
+
+    <div class="lane-guide">
+      <h2>What lane to play</h2>
+      <img class="text-border" src="img/Vector.png" alt=" text border" />
+      <h3>Choose your lane!</h3>
+      <p>
+        'Summoner's Rift' in League of Legends consists of three lanes and the
+        jungle. 'Top' lane is usually taken by resilient tanks or bruisers.
+        'Mid' lane is often occupied by bursty mages or assassins. 'Bot' lane is
+        generally shared by a damage-centric ADC and their supportive partner.
+        The 'Jungle' is home to the Jungler, who focuses on neutral monster
+        camps, helping lanes by 'ganking' (surprise attacking), and securing
+        crucial map objectives.
+      </p>
+      <img
+        class="lanes-map"
+        src="img/lanes-map.png"
+        alt="summoners rift map with lane icons"
+      />
+    </div>
+    <!-- Buy items mobil -->
+
+    <div class="lane-guide">
+      <h2>Buy items</h2>
+      <img class="text-border" src="img/Vector.png" alt="text border" />
+      <h3>Buying the right items, can win you the game!</h3>
+      <p>
+        In League of Legends, items enhance your champion's abilities, providing
+        extra power, defense, or utility. Purchased with gold earned during the
+        game, they can drastically impact your performance. The choice of items
+        should align with your champion's role, the flow of the match, and the
+        composition of the enemy team.
+      </p>
+      <img
+        class="buy-items-icons"
+        src="img/buy-items-icons.png"
+        alt="icons showing fighter, mage, assasin, marksman, support and tank"
+      />
+      <div class="buy-items-container-mobil">
+        <div class="buy-items-guide">
+          <div class="lane-guide">
+            <h2>Starter</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Starter items are initial purchases that provide early-game
+              benefits tailored to specific champion roles and playstyles,
+              enhancing their effectiveness during the laning phase.
+            </p>
+          </div>
+        </div>
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Consumables</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              consumables are temporary items that champions can purchase and
+              use to gain immediate benefits during the match, such as health
+              restoration, vision control, or other buffs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="buy-items-container-mobil">
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Trinkets</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              trinkets are a type of consumable item that provides additional
+              utility to champions, allowing them to place wards, reveal hidden
+              areas, or enhance their vision control throughout the game.
+            </p>
+          </div>
+        </div>
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Distributed</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Distributed items primarily refer to items that are granted to
+              players during the game through specific mechanics or events.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="buy-items-container-mobil">
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Boots</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Boots are in-game items that increase a champion's movement speed,
+              offering enhanced mobility and positioning during matches. Each
+              pair of boots also offers a specific buff like extra armor.
+            </p>
+          </div>
+        </div>
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Basic</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Basic items are fundamental in-game components that champions can
+              purchase and build upon to create more powerful and specialized
+              items.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="buy-items-container-mobil">
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Epic</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Epic items are powerful and advanced in-game items that provide
+              significant boosts to a champion's abilities and stats. These
+              items are usually more expensive and take longer to complete
+            </p>
+          </div>
+        </div>
+        <div class="buy-items-guide-mobil">
+          <div class="lane-guide">
+            <h2>Legendary</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Legendary items are top-tier, high-impact items that significantly
+              augment a champion's abilities and strength, often granting
+              powerful passives or actives.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="buy-items-container-mobil">
+        <div class="buy-items-guide-1">
+          <div class="lane-guide">
+            <h2>Mythic</h2>
+            <img class="text-border" src="img/Vector.png" alt="text border" />
+            <p>
+              Mythic items are the most influential and game-changing items that
+              champions can acquire. Each champion can have only one Mythic item
+              in their build, and these items provide unique and powerful
+              effects
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Buy items desktop and tablet -->
+    <div class="buy-items-container">
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Starter</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Starter items are initial purchases that provide early-game benefits
+            tailored to specific champion roles and playstyles, enhancing their
+            effectiveness during the laning phase.
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Consumables</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            consumables are temporary items that champions can purchase and use
+            to gain immediate benefits during the match, such as health
+            restoration, vision control, or other buffs.
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Trinkets</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            trinkets are a type of consumable item that provides additional
+            utility to champions, allowing them to place wards, reveal hidden
+            areas, or enhance their vision control throughout the game.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="buy-items-container">
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Distributed</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Distributed items primarily refer to items that are granted to
+            players during the game through specific mechanics or events.
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Boots</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Boots are in-game items that increase a champion's movement speed,
+            offering enhanced mobility and positioning during matches. Each pair
+            of boots also offers a specific buff like extra armor.
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Basic</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Basic items are fundamental in-game components that champions can
+            purchase and build upon to create more powerful and specialized
+            items.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buy-items-container">
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Epic</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Epic items are powerful and advanced in-game items that provide
+            significant boosts to a champion's abilities and stats. These items
+            are usually more expensive and take longer to complete
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Legendary</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Legendary items are top-tier, high-impact items that significantly
+            augment a champion's abilities and strength, often granting powerful
+            passives or actives.
+          </p>
+        </div>
+      </div>
+      <div class="buy-items-guide">
+        <div class="lane-guide">
+          <h2>Mythic</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <p>
+            Mythic items are the most influential and game-changing items that
+            champions can acquire. Each champion can have only one Mythic item
+            in their build, and these items provide unique and powerful effects
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Take objectives -->
+
+    <div class="lane-guide">
+      <h2>Take objectives</h2>
+      <img class="text-border" src="img/Vector.png" alt="text border" />
+      <h3>
+        Take objectives to assist your team with gold and power. Conquere the
+        objectives alone or with your team!
+      </h3>
+      <p>
+        Objectives in League of Legends are crucial strategic elements that can
+        swing the game's momentum. 'Towers' defend lanes and provide map
+        control; destroying them grants gold and advances your territory.
+        'Inhibitors' spawn powerful minions when destroyed, aiding in sieges.
+        'Dragon' and 'Baron Nashor' are major neutral monsters that grant
+        significant team-wide buffs when defeated. 'Elder Dragon' and 'Baron
+        Nashor' can especially become key late-game objectives, providing
+        enhancements that can clinch victories.
+      </p>
+    </div>
+    <img
+      class="objective-background"
+      src="img/objective-bacground.png"
+      alt="summoners rift mid lane showing tower"
+    />
+    <!-- Towers -->
+    <div class="towers">
+      <div class="lane-guide">
+        <h2>Towers</h2>
+        <img class="text-border" src="img/Vector.png" alt="text border" />
+        <h3>Take towers to assist your team with gold and power.</h3>
+        <p>
+          By coordinating with your team, using strategic positioning, and
+          pushing minion waves, you can systematically take down enemy towers
+          and gain map control. Destroying towers provides the team with gold,
+          opens up the map, and creates opportunities to siege the enemy base,
+          ultimately leading to victory.
+        </p>
+      </div>
+      <video loop muted autoplay src="video/towers.mp4"></video>
+    </div>
+    <!-- Nexus -->
+    <div class="nexus">
+      <div class="towers">
+        <div class="lane-guide">
+          <h2>Nexus</h2>
+          <img class="text-border" src="img/Vector.png" alt="text border" />
+          <h3>Destroy the nexus and win the game</h3>
+          <p>
+            In League of Legends, the Nexus is the ultimate objective and core
+            building located at the heart of each team's base. It represents the
+            key to victory in every match. The primary goal for players is to
+            destroy the enemy Nexus while protecting their own. Once a team
+            successfully takes down the enemy Nexus, they achieve victory in the
+            game.
+          </p>
+        </div>
+        <video loop muted autoplay src="video/nexus.mp4"></video>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <img
+      class="footerborder"
+      src="img/Group 146.png"
+      alt="Border above footer"
+    />
+    <footer>
+      <div class="mobil-footer">
+        <div class="footer-links">
+          <ul>
+            <li><h4>Shortcuts</h4></li>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="howtoplay.html">How to play</a></li>
+            <li><a href="top.html"> Top</a></li>
+            <li><a href="jungle.html"> Jungle</a></li>
+            <li class="desktop-lanes"><a href="mid.html"> Mid lane</a></li>
+            <li class="desktop-lanes"><a href="adc.html"> Adc</a></li>
+            <li class="desktop-lanes"><a href="support.html"> Support</a></li>
+          </ul>
+          <ul class="right-list">
+            <li>&nbsp</li>
+            <li><a href="mid.html"> Mid lane</a></li>
+            <li><a href="adc.html"> Adc</a></li>
+            <li><a href="support.html"> Support</a></li>
+          </ul>
+          <ul class="desk-footer">
+            <li><h4>Story</h4></li>
+            <li>
+              This is a second semester exam project made by Emelie Krøger and
+              Sofie Lysholm. We chose this theme for our website because we are
+              big fans and also love to play this game. therefore it was fun for
+              us to make this. We dont own any images and the game is made by
+              Riot.
+            </li>
+          </ul>
+          <ul class="tablet-footer">
+            <li><h4>Special thanks</h4></li>
+            <li>
+              League Of <br />
+              Legends
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/howtoplay.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

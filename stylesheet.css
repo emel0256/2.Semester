@@ -1,0 +1,1677 @@
+/* Normal font for text*/
+@font-face {
+  font-family: "Inter";
+  src: url("/font/static/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+/* Bold font for headings */
+@font-face {
+  font-family: "Inter";
+  src: url("/font/static/Inter-Bold.ttf");
+  font-weight: 800;
+}
+
+/* Thin font for under headings */
+@font-face {
+  font-family: "Inter";
+  src: url("/font/static/Inter-Thin.ttf");
+  font-weight: 200;
+}
+
+/* Added font and make the website go all the way to the sides*/
+body {
+  background-color: #090f17;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Bold font for h1 */
+h1 {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+/*mobil*/
+
+/*  Index - homepage */
+/*navbar*/
+.nav-item > a:hover {
+  font-weight: 800;
+}
+
+.active {
+  border: #c8aa6e;
+  border-style: none none solid none;
+  font-weight: 800;
+}
+/* header img*/
+.forside-intro {
+  background-image: url("../img/ashebanner.png");
+  background-size: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.forside-intro h1 {
+  padding-top: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, o.5);
+}
+/* download game button for header img*/
+.forside-intro button {
+  background-color: #c8aa6e;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*border under header*/
+.introborder {
+  width: 100%;
+  margin-top: -22px;
+}
+/* lol introduktion*/
+.lol-intro {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+/*lol intro left text*/
+
+.intro-left {
+  width: 50%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.intro-left > h2 {
+  width: 85%;
+  text-align: start;
+  margin-left: 37px;
+}
+
+.intro-left > img {
+  width: 90%;
+  margin-left: 27px;
+  margin-top: -40px;
+}
+
+.intro-left > p {
+  font-size: 16px;
+  width: 80%;
+  margin-left: 37px;
+}
+
+.tablet-desk-text {
+  display: none;
+}
+
+/* intro img right*/
+.intro-right {
+  width: 50%;
+  margin-right: 25px;
+  position: relative;
+}
+
+.intro-right > img {
+  width: 100%;
+}
+
+.intro-right > p {
+  position: absolute;
+  text-align: center;
+  margin-top: -70px;
+  margin-left: 25px;
+}
+
+.text-border {
+  width: 90%;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+/*beginners guide*/
+.beginners-guide {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.beginners-guide > h2 {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 7px;
+}
+
+.lanes-mobil > h2 {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 7px;
+}
+
+.beginners-guide > p {
+  font-size: 16px;
+  margin-left: 37px;
+  margin-top: -20px;
+  width: 80%;
+}
+
+.beginnerimg {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.beginnerimg > img {
+  width: 85%;
+}
+
+.beginnerimg h3 {
+  padding-right: 4px;
+  position: absolute;
+  font-size: 16px;
+  color: #c8aa6e;
+  width: 85%;
+  margin-top: -80px;
+  text-align: right;
+}
+.beginnerimg p {
+  padding-right: 4px;
+  position: absolute;
+  width: 85%;
+  font-size: 14px;
+  margin: auto;
+  margin-top: -65px;
+  text-align: right;
+}
+
+.text-box {
+  margin: auto;
+  width: 85%;
+}
+
+.beginnerimg button {
+  background-color: #c8aa6e;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, o.5);
+}
+
+.beginnerimg > .text-box > a {
+  padding-right: 4px;
+  position: absolute;
+  width: 85%;
+  margin-top: -42px;
+  display: block;
+  text-align: right;
+}
+/* lane guides*/
+.desktop-lanes {
+  display: none;
+}
+.lanes-mobil {
+  width: 100%;
+  margin: 0;
+}
+.lanes > .lane > a > img {
+  width: 100%;
+}
+
+.lane {
+  margin-bottom: 10px;
+}
+
+.lanes {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+
+.lane p {
+  font-size: 20px;
+  position: absolute;
+  width: 85%;
+  margin-top: -87.66px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, o.5);
+  height: 87.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+/*footer*/
+footer {
+  background-image: url("../img/Footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 140px;
+  margin-top: 30px;
+  display: flex;
+  padding-top: 20px;
+}
+.footerborder {
+  width: 100%;
+  margin-bottom: -85px;
+}
+
+.mobil-footer {
+  display: flex;
+  width: 50%;
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links > ul {
+  list-style: none;
+}
+.footer-links > ul > li {
+  font-size: 13px;
+}
+.footer-links > ul > li > h4 {
+  font-size: 15px;
+  color: #c8aa6e;
+  margin-bottom: 0;
+}
+.footer-links > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.right-list {
+  margin-left: -5px;
+}
+.tablet-footer {
+  display: none;
+}
+.container {
+  display: none;
+}
+.desk-footer {
+  display: none;
+}
+/*how to play*/
+/*header img*/
+.forside-intro-2 {
+  background-image: url("../img/htp-background.png");
+  background-size: 100%;
+  height: 200px;
+  text-align: center;
+}
+.forside-intro-2 h1 {
+  font-size: 22px;
+  padding-top: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, o.5);
+}
+
+.introborder {
+  width: 100%;
+  margin-top: -22px;
+}
+/* how to play intro*/
+.htp-introtekst {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.htp-introtekst > h2 {
+  margin-left: 35px;
+  text-align: start;
+}
+.htp-introtekst > h3 {
+  margin-top: -20px;
+  font-size: 14px;
+  margin-left: 35px;
+}
+.htp-introtekst p {
+  margin-top: 30px;
+  margin-left: 37px;
+  margin-right: 37px;
+}
+.page-center {
+  margin-left: 37px;
+  margin-right: 37px;
+  margin-top: 100px;
+}
+.grid-item > video {
+  width: 100%;
+}
+/* game modes*/
+.game-mode-guide {
+  text-align: center;
+}
+
+.game-mode-container {
+  margin-top: 30px;
+}
+
+.game-mode-guide > p {
+  margin-top: 20px;
+  width: 80%;
+  text-align: left;
+  margin-left: 37px;
+  margin-bottom: 100px;
+}
+/* buy items*/
+.buy-items-icons {
+  width: 93%;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.game-mode-guide > img {
+  width: 35%;
+}
+.buy-items-container-mobil {
+  display: flex;
+  margin-right: 37px;
+  margin-top: -50px;
+}
+.buy-items-guide-1 {
+  width: 50%;
+}
+.buy-items-container {
+  display: none;
+}
+/*lanes*/
+.lanes-map {
+  width: 90%;
+  margin-left: 25px;
+}
+/*objectives*/
+.objective-background {
+  width: 100%;
+  margin-top: -100px;
+}
+/*towers*/
+.towers {
+  margin-top: -100px;
+}
+.towers > video {
+  width: 82%;
+  margin-left: 37px;
+}
+/*nexus*/
+.nexus {
+  margin-top: 150px;
+}
+/*top lane*/
+/*header img*/
+.lane-header > img {
+  width: 100%;
+}
+
+.lane-header {
+  margin-bottom: 100px;
+}
+.lane-header > h1 {
+  margin-top: -210px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.lane-header > h2 {
+  padding-top: 80px;
+  font-size: 18px;
+}
+.lane-header > p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.jgl-adc-supp-header-text {
+  padding-top: 75px !important;
+}
+/* top lane guide*/
+/* parent div til de fleste elementer*/
+.lane-guide {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.lane-guide > h2 {
+  text-align: start;
+  margin-left: 37px;
+}
+.lane-guide > h3 {
+  text-align: start;
+  margin-left: 37px;
+  font-size: 13px;
+  margin-top: -20px;
+  width: 80%;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 200;
+  color: lightgray;
+}
+.lane-guide > h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.lane-guide > p {
+  font-size: 16px;
+  margin-left: 37px;
+  width: 80%;
+}
+/*champions stats*/
+.champions-stats {
+  width: 100%;
+}
+.champions-stats > img {
+  width: 100%;
+}
+/*lane trading*/
+.lane-trading {
+  display: flex;
+  justify-content: center;
+}
+
+.cooldown > img {
+  width: 30%;
+  margin-left: 35%;
+}
+.spells > img {
+  width: 70%;
+  margin-left: 5%;
+}
+.autoattack > img {
+  width: 76%;
+  margin-left: 4%;
+}
+.spells,
+.autoattack,
+.cooldown {
+  width: 24%;
+  margin: 10px;
+}
+/*baron*/
+
+.baron-img {
+  width: 100%;
+  margin-top: -60px;
+  margin-bottom: -400px;
+}
+/*wave management*/
+#wave-management-video-source {
+  width: 82%;
+  margin-left: 37px;
+  margin-top: 20px;
+}
+#minions-pictures {
+  display: flex;
+  border: #c8aa6e;
+  border-bottom-style: solid;
+  width: 60%;
+  padding-bottom: 20px;
+  margin-left: 80px;
+}
+.minions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.minions > img {
+  width: 40px;
+}
+
+.minions > p {
+  color: #c8aa6e;
+  font-weight: 800;
+  font-size: 10px;
+}
+/* grouping or splitting*/
+#grouping-animation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+#grouping-animation > p {
+  font-size: 32px;
+}
+
+.flip-image > img {
+  width: 150px;
+}
+#flip-image-1-text > img {
+  width: 150px;
+}
+#flip-image-2-text > img {
+  width: 150px;
+}
+#flip-image-1-text > p {
+  margin-top: -110px;
+  width: 100px;
+  margin-left: 30px;
+  font-size: 10px;
+}
+#flip-image-2-text > p {
+  margin-top: -110px;
+  width: 100px;
+  margin-left: 30px;
+  font-size: 10px;
+}
+.grouping-splitting-overskrift > img {
+  width: 85%;
+  margin-left: 37px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.background-image-split-grp {
+  background-image: url("../img/Grouping-splitting-background.png");
+  background-size: cover;
+  width: 100%;
+}
+
+/*jungle*/
+/*summoner spells jungle*/
+.summ-spells {
+  width: 83%;
+  margin-left: 37px;
+  margin-top: 40px;
+}
+.left-spell-text {
+  margin-top: -72px;
+  font-size: 12px !important;
+  margin-left: 42px !important;
+}
+.right-spell-text {
+  margin-top: -34px;
+  font-size: 12px !important;
+  margin-left: 207px !important;
+  width: 150px !important;
+}
+.spells-jungle {
+  margin-bottom: 150px;
+}
+/*jungle clear*/
+.jungle-clear {
+  display: flex;
+}
+
+.clear-left > img {
+  width: 100%;
+}
+.clear-left > p {
+  width: 70%;
+  margin-left: 37px;
+}
+
+.clear-right > img {
+  width: 100%;
+}
+.clear-right > p {
+  width: 70%;
+}
+/* scutlle crab*/
+.scuttle {
+  width: 80%;
+  margin-left: 37px;
+}
+.scuttle-stats {
+  display: flex;
+  margin-left: 110px;
+  margin-bottom: -15px;
+}
+.scuttle-stats > p {
+  font-size: 8px;
+  margin-right: 65px;
+}
+
+.mr-text {
+  margin-left: -25px !important;
+}
+/* objectives*/
+.objectives > img {
+  width: 80%;
+  margin-left: 37px;
+}
+.objectives > p {
+  width: 30%;
+  margin-left: 145px;
+  margin-top: -70px;
+}
+/*mid*/
+/*roaming*/
+.roaming > img {
+  width: 100%;
+}
+.roaming > p {
+  margin-left: 37px;
+  width: 80%;
+}
+.roaming {
+  margin-top: -70px;
+}
+/*adc*/
+/*drake*/
+.drake-img {
+  width: 80%;
+  margin-left: 37px;
+}
+/*support*/
+.engage-video {
+  text-align: center;
+}
+.engage-video > video {
+  width: 83%;
+}
+
+.forside-intro-text {
+  width: 80%;
+  margin: auto;
+}
+
+.summoner-rift-gamemode-carrusel {
+  display: none;
+}
+
+.warding-carrusel {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  /*index -homepage*/
+  /*header img*/
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .forside-intro {
+    height: 400px;
+  }
+  .introborder {
+    margin-top: -20px;
+  }
+  .forside-intro h1 {
+    font-size: 40px;
+    padding-top: 120px;
+  }
+  .forside-intro button {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  /*lol intro tekst*/
+
+  .lol-intro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  /*left text*/
+  .intro-left {
+    width: 60%;
+    margin-left: 30px;
+  }
+  .intro-left > img {
+    margin-left: 20px;
+  }
+  .intro-left > h2 {
+    margin-left: 35px;
+  }
+  .intro-left > p {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  .mobile-text {
+    display: none;
+  }
+  .tablet-desk-text {
+    display: block;
+  }
+  /*right img*/
+  .intro-right {
+    width: 30%;
+    margin-top: -30px;
+    margin-right: 70px;
+  }
+  .intro-right > p {
+    margin-top: -85px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+  .text-border {
+    width: 87%;
+    margin-top: -40px;
+    margin-left: 45px;
+  }
+  /*beginners guide*/
+
+  .beginners-guide > h2 {
+    text-align: start;
+    width: 83%;
+  }
+
+  .beginners-guide > p {
+    margin-left: 70px;
+  }
+
+  .beginnerimg {
+    margin-bottom: 100px;
+  }
+
+  .beginnerimg h3 {
+    padding-right: 10px;
+    font-size: 30px;
+    margin-top: -140px;
+  }
+  .beginnerimg p {
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: -102px;
+  }
+
+  .beginnerimg button {
+    padding: 5px 15px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .beginnerimg > .text-box > a {
+    margin-top: -60px;
+  }
+  /* lane guides tablet*/
+  .lanes-mobil > h2 {
+    text-align: start;
+    margin-left: 70px;
+  }
+  .lanes > .lane > img {
+    margin-bottom: 20px;
+  }
+  .lane p {
+    font-size: 35px;
+    margin-top: -193.65px;
+    height: 193.65px;
+  }
+  /*footer*/
+  footer {
+    height: 270px;
+    margin-top: 100px;
+    padding-left: 7%;
+    padding-top: 40px;
+  }
+  .footerborder {
+    margin-bottom: -230px;
+  }
+  footer > ul > li {
+    font-size: 16px;
+    line-height: 35px;
+  }
+  footer h4 {
+    font-size: 20px;
+  }
+
+  .tablet-footer {
+    display: block;
+    margin-left: 10px;
+  }
+  .container {
+    display: none;
+  }
+  .desk-footer {
+    display: none;
+  }
+
+  /*top lane*/
+  /*header img*/
+
+  .lane-header > h1 {
+    margin-top: -410px;
+    font-size: 40px;
+  }
+  .lane-header > h2 {
+    padding-top: 175px;
+    font-size: 28px;
+  }
+  .lane-header > p {
+    font-size: 24px;
+  }
+
+  .lane-header {
+    margin-bottom: 170px;
+  }
+  .jgl-adc-supp-header-text {
+    padding-top: 160px !important;
+  }
+  /* lane guide - parent div til de fleste elementer*/
+  .lane-guide {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .lane-guide > h2 {
+    margin-left: 70px;
+  }
+  .lane-guide > h3 {
+    margin-left: 70px;
+    font-size: 16px;
+  }
+  .lane-guide > p {
+    font-size: 18px;
+    margin-left: 70px;
+  }
+  .lane-guide > h4 {
+    margin-top: 50px;
+    font-size: 26px;
+  }
+  /*lane trading*/
+
+  .cooldown > img {
+    width: 22%;
+    margin-left: 30%;
+  }
+  .spells > img {
+    width: 50%;
+    margin-left: 18%;
+  }
+  .autoattack > img {
+    width: 55%;
+    margin-left: 15%;
+  }
+  .spells,
+  .autoattack,
+  .cooldown {
+    width: 20%;
+    margin: 45px;
+  }
+  /* wave management*/
+  #wave-management-video-source {
+    width: 82%;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+  #minions-pictures {
+    padding-bottom: 20px;
+    margin-left: 160px;
+  }
+  .minions {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .minions > img {
+    width: 100px;
+  }
+
+  .minions > p {
+    font-size: 16px;
+  }
+  /*grouping or splitting*/
+  #grouping-animation {
+    gap: 20px;
+  }
+
+  #grouping-animation > p {
+    font-size: 32px;
+  }
+
+  .flip-image > img {
+    width: 300px;
+  }
+  #flip-image-1-text > img {
+    width: 300px;
+  }
+  #flip-image-2-text > img {
+    width: 300px;
+  }
+  #flip-image-1-text > p {
+    margin-top: -200px;
+    width: 250px;
+    font-size: 16px;
+  }
+  #flip-image-2-text > p {
+    margin-top: -200px;
+    width: 250px;
+    font-size: 16px;
+  }
+  .flip-image {
+    margin-bottom: 150px;
+  }
+
+  #flip-image-1-text > img,
+  #flip-image-2-text > img {
+    width: 300px;
+  }
+
+  .grouping-splitting-overskrift > img {
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .background-image-split-grp {
+    background-image: url("../img/Grouping-splitting-background.png");
+    background-size: cover;
+    width: 100%;
+  }
+
+  /*jungle*/
+  /* summoner spells jungle*/
+  .summ-spells {
+    width: 84%;
+    margin-left: 70px;
+    margin-top: 60px;
+  }
+  .left-spell-text {
+    margin-top: -125px;
+    font-size: 14px !important;
+    margin-left: 95px !important;
+  }
+  .right-spell-text {
+    font-size: 14px !important;
+    margin-left: 450px !important;
+    margin-top: -37px;
+  }
+  .spells-jungle {
+    margin-bottom: 250px;
+  }
+  /*jungle clear*/
+  .clear-left > img {
+    width: 100%;
+  }
+  .clear-left > p {
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  .clear-right > img {
+    width: 100%;
+  }
+  .clear-right > p {
+    width: 70%;
+    margin-left: 50px;
+  }
+  /*scuttle crab*/
+  .scuttle {
+    width: 60%;
+    margin-left: 160px;
+  }
+  .scuttle-stats {
+    margin-left: 267px;
+    margin-bottom: -20px;
+  }
+  .scuttle-stats > p {
+    font-size: 12px;
+    margin-right: 83px;
+  }
+
+  .mr-text {
+    margin-left: -25px !important;
+  }
+  /*objectives*/
+  .objectives > img {
+    margin-left: 80px;
+    margin-top: -90px;
+  }
+  .objectives > p {
+    width: 30%;
+    margin-left: 290px;
+    margin-top: -130px;
+  }
+  /*mid*/
+  .roaming > p {
+    margin-left: 70px;
+    font-size: 18px;
+  }
+  .roaming {
+    margin-top: -70px;
+  }
+  /*adc*/
+  .drake-img {
+    margin-left: 70px;
+  }
+  /*how to play*/
+  /*header img*/
+  .forside-intro-2 {
+    height: 400px;
+  }
+  .introborder {
+    margin-top: -20px;
+  }
+  .forside-intro-2 h1 {
+    font-size: 40px;
+    padding-top: 170px;
+  }
+  /*game modes*/
+  .game-mode-container {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+  }
+  .summoner-rift-gamemode-carrusel {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .game-mode-carrusel-menu > ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    border: #c8aa6e;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .summoner-rift-gamemode-carrusel-display {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .game-mode-carrusel-menu > ul > li {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .game-mode-carrusel-menu {
+    width: 100%;
+  }
+
+  .game-mode-guide > p {
+    margin-bottom: 0px;
+  }
+
+  /*warding*/
+
+  .warding-carrusel {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .warding-carrusel-menu-pictures {
+    display: flex;
+    border: #c8aa6e;
+    border-bottom-style: solid;
+    padding-bottom: 35px;
+    justify-content: flex-start;
+    gap: 45px;
+  }
+
+  .warding-carrusel-menu-pictures > img {
+    width: 50px;
+  }
+
+  #carrusel-warding-img {
+    width: 100%;
+  }
+
+  .warding-carrusel-menu {
+    width: 100%;
+  }
+
+  .carrusel-warding-img-box {
+    border: #c8aa6e;
+    padding: 10px;
+    border-style: solid;
+  }
+  /*buy items*/
+  .buy-items-container {
+    display: flex;
+  }
+  .buy-items-container-mobil {
+    display: none;
+  }
+  .buy-items-icons {
+    width: 94%;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  .buy-items-guide {
+    width: 30%;
+  }
+  /* what lane to play*/
+  .lanes-map {
+    margin-left: 50px;
+  }
+  /*objectives*/
+  .objective-background {
+    width: 100%;
+    margin-top: -90px;
+  }
+  /*towers*/
+  .towers {
+    margin-top: -150px;
+  }
+  .towers > video {
+    width: 83%;
+    margin-left: 70px;
+  }
+  /*nexus*/
+  .nexus {
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    line-height: 40px;
+  }
+  /*index - homepage*/
+  .forside-intro {
+    height: 700px;
+  }
+
+  .forside-intro h1 {
+    font-size: 60px;
+    padding-top: 220px;
+  }
+  .forside-intro button {
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  .introborder {
+    margin-top: -22px;
+  }
+  /* lol introduktion*/
+  .lol-intro {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  /* left text*/
+  .intro-left {
+    margin-left: 100px;
+  }
+  .intro-left > img {
+    margin-left: 10px;
+  }
+
+  .intro-left > p {
+    font-size: 22px;
+  }
+  /*right img*/
+  .intro-right {
+    margin-top: -80px;
+    margin-right: 100px;
+    margin-left: -80px;
+  }
+  .intro-right > p {
+    margin-top: -130px;
+    margin-left: 100px;
+    font-size: 25px;
+  }
+
+  .text-border {
+    width: 90%;
+    margin-left: 55px;
+  }
+  /*beginners guide*/
+  .beginners-guide {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .beginners-guide > h2 {
+    margin-left: 100px;
+  }
+
+  .beginners-guide > p {
+    margin-left: 100px;
+  }
+
+  .beginnerimg {
+    margin-bottom: 200px;
+  }
+
+  .beginnerimg h3 {
+    padding-right: 80px;
+    font-size: 50px;
+    margin-top: -200px;
+  }
+  .beginnerimg p {
+    padding-right: 80px;
+    font-size: 30px;
+    margin-top: -140px;
+  }
+
+  .beginnerimg button {
+    font-size: 25px;
+    margin-right: 80px;
+  }
+
+  .beginnerimg > .text-box > a {
+    margin-top: -87px;
+  }
+  /* lanes slider desktop*/
+
+  .lanes-mobil > h2 {
+    margin-left: 130px;
+  }
+  .lanes-mobil > img {
+    margin-left: 90px;
+    width: 86%;
+  }
+  .container {
+    display: block;
+  }
+  .lanes {
+    display: none;
+  }
+  /*slider container*/
+  .container {
+    display: flex;
+    width: 80%;
+  }
+
+  .slider {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* thumbnail images on left*/
+
+  .slider img {
+    width: 100%;
+    max-height: 10.2vh; /* Begrænser højden af sliderbillederne */
+    object-fit: cover;
+    cursor: pointer;
+    object-position: 50% 20%;
+    margin-bottom: 5px;
+  }
+  /* big image on right*/
+  .big-image {
+    width: 70%;
+    margin-left: 20px;
+    text-align: right;
+  }
+
+  .big-image img {
+    width: 100%;
+    max-height: 80vh; /* Begrænser højden af hovedbilledet */
+    object-fit: cover;
+  }
+  /* big image text*/
+  #linje1 {
+    color: #c8aa6e;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    padding-right: 15px;
+  }
+  .image-tekst {
+    margin-top: -180px;
+    text-align: right;
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  #linje2 {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    line-height: 20px;
+    width: 60%;
+  }
+  /*button*/
+
+  #knap-container {
+    padding-right: 15px;
+  }
+
+  .knap-stil > a {
+    background-color: #c8aa6e;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 20px;
+  }
+  /* thumbnail imgs text*/
+  figcaption {
+    margin-top: -80px;
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  }
+  figcaption > a {
+    color: white;
+    text-decoration: none;
+  }
+  /* footer*/
+  footer {
+    background-image: url("../img/Footer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    height: 460px;
+    margin-top: 200px;
+    padding-left: 10%;
+    padding-top: 50px;
+  }
+  .footerborder {
+    width: 100%;
+    margin-bottom: -95px;
+  }
+  .footerborder {
+    margin-bottom: -436px;
+  }
+  .desk-footer {
+    display: block;
+    width: 65%;
+  }
+  .footer-links > ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .footer-links > ul > li {
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .footer-links > ul > li > h4 {
+    font-size: 25px;
+    color: #c8aa6e;
+    margin-top: 30px;
+  }
+
+  .mobil-footer {
+    width: 46%;
+  }
+
+  .desktop-lanes {
+    display: block;
+  }
+
+  .right-list {
+    display: none;
+  }
+
+  /*top lane*/
+  /* header img*/
+  .lane-header {
+    margin-bottom: 300px;
+  }
+
+  .lane-header > h1 {
+    margin-top: -700px;
+    font-size: 60px;
+  }
+  .lane-header > h2 {
+    padding-top: 405px;
+    font-size: 40px;
+  }
+  .lane-header > p {
+    font-size: 30px;
+  }
+  .jgl-adc-supp-header-text {
+    padding-top: 310px !important;
+  }
+  /* warding*/
+  #carrusel-warding-text {
+    line-height: normal;
+    padding-right: 20px;
+  }
+  /*wave management*/
+  #wave-management-video {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .minions {
+    padding-left: 10px;
+    padding-right: 60px;
+  }
+
+  .minions > img {
+    width: 130px;
+  }
+
+  .minions > p {
+    color: #c8aa6e;
+    font-weight: 800;
+  }
+  #minions-pictures {
+    display: flex;
+    border: #c8aa6e;
+    border-bottom-style: solid;
+    width: 65%;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  #wave-management-video-source {
+    width: 86%;
+    margin-top: 20px;
+  }
+  /*grouping or splitting*/
+
+  #grouping-animation {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+
+  #grouping-animation > p {
+    font-size: 32px;
+  }
+  #flip-image-1-text > img {
+    width: 400px;
+  }
+  #flip-image-2-text > img {
+    width: 400px;
+  }
+  .flip-image > img {
+    width: 400px;
+  }
+  #flip-image-1-text > p {
+    margin-top: -300px;
+    width: 300px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  #flip-image-2-text > p {
+    margin-top: -300px;
+    width: 300px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+    .grouping-splitting-overskrift > img {
+      width: 90%;
+      margin-left: 75px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .background-image-split-grp {
+      background-image: url("../img/Grouping-splitting-background.png");
+      background-size: cover;
+      width: 100%;
+    }
+
+  /*lane guide - parent div til de fleste elementer*/
+
+  .lane-guide {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+    width: 80%;
+    margin: auto;
+  }
+  .lane-guide > h2 {
+    margin-left: 100px;
+  }
+  .lane-guide > h3 {
+    margin-left: 100px;
+    font-size: 18px;
+  }
+  .lane-guide > p {
+    margin-left: 100px;
+    font-size: 22px;
+  }
+  /*champions stats*/
+  .champions-stats {
+    margin-top: 100px;
+  }
+  /*lane trading*/
+  .cooldown > img {
+    width: 21.5%;
+    margin-left: 40%;
+  }
+  .spells > img {
+    width: 50%;
+    margin-left: 20%;
+  }
+  .autoattack > img {
+    width: 55%;
+    margin-left: 20%;
+  }
+  .spells,
+  .autoattack,
+  .cooldown {
+    margin: 65px;
+  }
+  .spells,
+  .autoattack,
+  .cooldown > p {
+    font-size: 22px;
+  }
+
+
+  /*jungle*/
+  /*summoner spells jungle*/
+  .summ-spells {
+    width: 86%;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .left-spell-text {
+    margin-top: -185px;
+    font-size: 24px !important;
+    margin-left: 130px !important;
+  }
+  .right-spell-text {
+    font-size: 24px !important;
+    margin-left: 610px !important;
+    margin-top: -56px;
+    width: 350px !important;
+  }
+  .spells-jungle {
+    margin-bottom: 350px;
+  }
+  /*jungle clear*/
+
+  .clear-left > p {
+    margin-left: 100px;
+    width: 60%;
+  }
+
+  .clear-right > img {
+    width: 100%;
+  }
+  .clear-right > p {
+    width: 60%;
+    margin-left: 100px;
+  }
+  /*scuttle crab*/
+  .scuttle {
+    width: 70%;
+    margin-left: 180px;
+  }
+  .scuttle-stats {
+    margin-bottom: -30px;
+    margin-left: 355px;
+  }
+  .scuttle-stats > p {
+    font-size: 18px;
+    margin-right: 145px;
+  }
+  .lane-guide > h4 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .mr-text {
+    margin-left: -45px !important;
+  }
+  /*obejctives*/
+  .objectives > img {
+    margin-left: 130px;
+  }
+  .objectives > p {
+    margin-left: 420px;
+    margin-top: -190px;
+  }
+  /*mid*/
+  /*roaming*/
+  .roaming {
+    margin-top: -200px;
+  }
+
+  .roaming > p {
+    width: 64%;
+    font-size: 22px;
+    margin-left: 240px;
+  }
+  .roaming > img {
+    width: 100%;
+  }
+  /*adc*/
+  /*drake*/
+  .drake-img {
+    margin-left: 100px;
+  }
+
+  /*how to play*/
+  /*header img*/
+  .forside-intro-2 {
+    height: 700px;
+  }
+
+  .forside-intro-2 h1 {
+    font-size: 60px;
+    padding-top: 300px;
+  }
+  /*buy items*/
+  .buy-items-icons {
+    width: 96%;
+    margin-top: 80px;
+  }
+  .buy-items-guide {
+    margin-top: -200px;
+    margin-left: 15px;
+  }
+  /*what lane to play*/
+  .lanes-map {
+    width: 75%;
+    margin-left: 160px;
+  }
+  /*towers*/
+  .towers {
+    margin-top: -200px;
+  }
+  .towers > video {
+    width: 67%;
+    margin-left: 240px;
+  }
+  /*nexus*/
+  .nexus {
+    margin-top: 400px;
+  }
+}
